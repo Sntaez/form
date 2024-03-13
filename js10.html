@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Switch Case</title>
+  </head>
+  <body>
+    <script language="javascript">
+      var kategori;
+      var range_nilai;
+      var nilai = "Rendah"; // Anda perlu mengubah variabel dari 'nilai' menjadi 'nilai'
+
+      switch (nilai) {
+        case "Rendah":
+          range_nilai = " nilai 40 sampai 60";
+          break;
+        case "Sedang":
+          range_nilai = " nilai 71 sampai 80";
+          break;
+        case "Tinggi":
+          range_nilai = " nilai 81 sampai 100";
+          break;
+        default:
+          range_nilai = "Data yang tidak ada dalam kategori";
+      }
+
+      document.write("Nilai Anda " + nilai + " berada di " + range_nilai); // Anda perlu menggunakan nilai yang tepat untuk variabel 'nilai'
+    </script>
+  </body>
+</html>

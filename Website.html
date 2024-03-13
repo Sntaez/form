@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Data</title>
+    <style>
+      /* Menentukan gaya untuk teks merah */
+      .merah {
+        color: red;
+      }
+
+      /* Menentukan gaya untuk teks biru */
+      .biru {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // Meminta pengguna memasukkan nama
+      var nama = prompt("Masukkan nama Anda:");
+
+      // Meminta pengguna memasukkan nim
+      var nim = prompt("Berapa nim Anda " + "?");
+
+      // Meminta pengguna memasukkan asal
+      var asal = prompt("Asal Anda? ");
+
+      // Menampilkan data yang dimasukkan pengguna
+      document.write("Nama: <span class='merah'>" + nama + "</span><br>");
+      document.write("NIM: <span class='biru'>" + nim + "</span><br>");
+      document.write("Asal dari " + asal + "<br>");
+      document.write("<br>");
+      document.write("Selamat datang di javascript" + "<br>");
+    </script>
+  </body>
+</html>
